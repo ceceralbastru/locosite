@@ -13,9 +13,9 @@ a{
 	text-decoration: none;
 }
 .container{
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
-	overflow: hidden;
+
 }
 
 ul{
@@ -65,35 +65,52 @@ ul li{
 .content{
 	overflow: hidden;
 	text-align: center;
+	
 }
 
 .box{
-	width:19%;
+	width:24%;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
+	float: left;
 /*	border: 1px solid; */
 }	
 
+.boxafter{
+	width:30%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	float: left;	
+
+}
+
 .vertical-line{
 	border-left: 1px solid #2ca6b0;
-	height: 100px;
-	margin-top: 60px;
+	height: 50px;
+	margin-top: 50px;
+	float: left;
+}
+.vertical-line-2{
+	border-left: 10px solid #2ca6b0;
+	height: 50px;
+	margin-top: 50px;
+	float: left;
 }
 
 .box, .vertical-line{
-	float: left;
+
 }
 
 .icon-large{
 	height: 50px;
 	margin: 0 auto;
 }
-
+/*
 .icon-large img{
-	width: 50%;
-	height: 50%;
-	
+	display: block;
+	vertical-align: bottom:
 }
+*/
 
 p{
 	padding: 0 1px;
@@ -113,12 +130,19 @@ p{
 }
 
 section.after-content{
-	overflow: hidden;
-	margin: 10px 0 0 0;	
-	padding: 10px 0;
-	color: white;
 	/*background: url(../images/tttt.jpg) center center no-repeat;*/
-	background-color: #aaa;
+	background-color: #eee;
+	
+}
+
+
+
+
+
+
+.boxingri{
+	width:29%;
+	float: left;	
 }
 
 footer{
@@ -140,5 +164,4 @@ footer .right{
 	
 
 
-	
 	
