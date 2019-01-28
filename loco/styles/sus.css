@@ -1,0 +1,27 @@
+.box{
+	width:19%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	float: left;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+}
+
+.vertical-line{
+	border-left: 3px solid #76D7C4;
+	height: 70px;
+  display: inline-block;
+	float: left;
+  margin-top: 30px;
+}
+
+.iconbox{
+	height: 50px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.boxtext{
+
+}

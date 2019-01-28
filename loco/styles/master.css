@@ -1,0 +1,51 @@
+#sus{
+  display: flex;
+}
+#sus p{
+	padding: 0 1px;
+	text-align: right;
+	margin: 0 0 0 0;
+  font-size: 20px;
+}
+
+#main{
+  display: flex;
+  flex-wrap: nowrap;
+    border: 0px solid blue;
+
+}
+#right{
+  width: 19%;
+  float: left;
+  overflow: hidden;
+  border: 0px solid green;
+}
+#right p{
+  padding: 0 15px;
+  text-align: left;
+  margin: 0 0 0 0;
+  font-size: 18px;
+}
+#right ul{
+margin: 0 0 0 0;
+pading: 0 0;
+}
+
+#leftcenter{
+  width: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+    border: 0px solid yellow;
+}
+#left{
+  width: 25%;
+float: left;
+background: #76D7C4;
+  border: 0px solid #888;
+}
+#center{
+  width: 74%;
+float: right;
+overflow: hidden;
+    border: 0px solid #888;
+}
